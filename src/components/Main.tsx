@@ -17,7 +17,7 @@ function Main() {
             <a href="https://github.com/aurelia-mutiah" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/aurelia-mutiah-raudyatuzzahra-575260448" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
-          <h1>Aurelia Mutiah</h1>
+          <h1>Aurelia Mutiah Raudyatuzzahra</h1>
           <p>Information Technology Student at Universitas Gadjah Mada</p>
 
           <div className="mobile_social_icons">
