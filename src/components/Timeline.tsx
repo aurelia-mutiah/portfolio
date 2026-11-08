@@ -23,7 +23,19 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">S1 Teknologi Informasi</h3>
             <h4 className="vertical-timeline-element-subtitle">Universitas Gadjah Mada, Yogyakarta</h4>
             <p>
-              Mahasiswa Teknologi Informasi yang memiliki minat dalam bidang data, jaringan komputer, dan keamanan siber, serta terus mengembangkan kemampuan teknis melalui pembelajaran dan proyek akademik.
+              Mahasiswa Teknologi Informasi yang memiliki minat utama pada bidang keamanan siber, serta ketertarikan pada jaringan komputer dan data. Terus mengembangkan kemampuan teknis dan memperluas wawasan di bidang teknologi informasi melalui pembelajaran dan proyek akademik.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Agu 2026 - sekarang"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Project Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Proyek PilahYuk</h4>
+            <p>
+              Memimpin dan mengoordinasikan tim dalam pengembangan PilahYuk, aplikasi web berbasis AI untuk klasifikasi sampah melalui foto. Bertanggung jawab atas pembagian tugas, pengelolaan timeline, koordinasi anggota, dan pemantauan progres proyek.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

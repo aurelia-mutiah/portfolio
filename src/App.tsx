@@ -8,6 +8,7 @@ import {
   Navigation,
   Footer,
 } from "./components";
+import Certificates from './components/Certificates';
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
@@ -34,6 +35,7 @@ function App() {
             <Expertise/>
             <Timeline/>
             <Project/>
+            <Certificates/>
             <Contact/>
         </FadeIn>
         <Footer />

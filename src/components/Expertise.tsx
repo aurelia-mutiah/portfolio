@@ -11,11 +11,8 @@ const labelsFirst = [
     "Python",
     "Pandas",
     "NumPy",
-    "Scikit-learn",
     "Matplotlib",
-    "Seaborn",
-    "PostgreSQL",
-    "PyTorch"
+    "PostgreSQL"
 ];
 
 const labelsSecond = [
@@ -44,7 +41,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Data Analysis & Machine Learning</h3>
-                    <p>Cleaning, integrating, and reducing real-world datasets with Python, plus coursework in exploratory data analysis, dimensionality reduction, and deep learning.</p>
+                    <p>Mempelajari pengolahan dan analisis data menggunakan Python, mulai dari membersihkan data, mengolah dataset, hingga memahami dasar-dasar machine learning dan deep learning.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -56,7 +53,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faNetworkWired} size="3x"/>
                     <h3>Networking & Security</h3>
-                    <p>Studying how networks work through Cisco Networking Academy, and exploring cybersecurity as the next area to go deeper into.</p>
+                    <p>Mempelajari dasar-dasar jaringan komputer melalui perkuliahan dan Cisco Networking Academy, serta mulai mendalami bidang keamanan siber sebagai salah satu minat utama.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Focus:</span>
                         {labelsSecond.map((label, index) => (
@@ -68,7 +65,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faGitAlt} size="3x"/>
                     <h3>Programming & Tools</h3>
-                    <p>Writing code in several languages and working with version control, notebooks, and documentation tools in both solo and team projects.</p>
+                    <p>Mengembangkan kemampuan pemrograman menggunakan beberapa bahasa serta memanfaatkan berbagai tools untuk menulis, menguji, dan mengelola kode dalam pengerjaan tugas dan proyek akademik.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tools:</span>
                         {labelsThird.map((label, index) => (
